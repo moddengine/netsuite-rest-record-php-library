@@ -8,10 +8,10 @@ class Loader
 	/**
 	 * Loads config from config.json
 	 *
-	 * @param stdClass|null $configData Load config from an external source
-	 * @return array
+	 * @param \stdClass|null $configData Load config from an external source
+	 * @return Config
 	 */
-	public function getConfig($configData = null)
+	public function getConfig($configData = null):Config
 	{
 		static $config = null;
 		if ($config === null) {
@@ -28,14 +28,14 @@ class Loader
 		}
 		$accountId = str_replace('_', '-', strtolower($config->ACCOUNT_ID));
 
-		return [
-			'account_id' => $accountId,
-			'realm' => str_replace('-', '_', strtoupper($config->ACCOUNT_ID)),
-			'consumer_key' => $config->CONSUMER_KEY,
-			'consumer_secret' => $config->CONSUMER_SECRET,
-			'token_id' => $config->TOKEN_ID,
-			'token_secret' => $config->TOKEN_SECRET,
-			'api_source' => $config->API_SOURCE,
-		];
+		return new Config(
+			$accountId,
+			$config->CONSUMER_KEY,
+			$config->CONSUMER_SECRET,
+			$config->TOKEN_ID,
+			$config->TOKEN_SECRET,
+			$config->API_SOURCE
+		);
+
 	}
 }
