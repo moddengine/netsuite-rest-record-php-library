@@ -6,6 +6,7 @@ use NetSuiteRestAPI\NetsuiteException;
 include_once('./RecordDefinitionsParser.php');
 include_once('./RecordSchemaParser.php');
 include_once('./PHPGenerator.php');
+include_once('./base/Config.php');
 include_once('./base/Loader.php');
 
 (new Index())->run();
@@ -65,7 +66,7 @@ class Index
         $fileName = $this->getVersion() . '.html';
         if (!file_exists($fileName)) {
             echo "\t...from web\n";
-            $source = file_get_contents($this->_config['api_source']);
+            $source = file_get_contents($this->_config->apiSource);
             file_put_contents($fileName, $source);
         } else {
             echo "\t...from local\n";
@@ -125,7 +126,7 @@ class Index
     {
         preg_match(
             '@REST_API_Browser\/record\/(v[\d\.]+)\/([\d\.]+)\/@',
-            $this->_config['api_source'],
+            $this->_config->apiSource,
             $matches
         );
 
