@@ -8,7 +8,7 @@ use NetSuiteRestAPI\RequestAbstract;
 /**
  * Class for Custom Records
  */
-class NSRecord_CustomRecord extends RequestAbstract
+class CustomRecord extends RequestAbstract
 {
 	/**
 	 * Format: customrecord_1234_abcdef
