@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Deposit extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Deposit extends RequestAbstract
 {
    /**
     * GET /deposit

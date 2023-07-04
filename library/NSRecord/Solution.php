@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Solution extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Solution extends RequestAbstract
 {
    /**
     * GET /solution

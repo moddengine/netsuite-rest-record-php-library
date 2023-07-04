@@ -1,5 +1,9 @@
 <?php
-class NSRecord_GlobalAccountMapping extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class GlobalAccountMapping extends RequestAbstract
 {
    /**
     * GET /globalAccountMapping

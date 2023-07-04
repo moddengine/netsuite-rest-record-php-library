@@ -1,5 +1,9 @@
 <?php
-class NSRecord_TransferOrder extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class TransferOrder extends RequestAbstract
 {
    /**
     * GET /transferOrder

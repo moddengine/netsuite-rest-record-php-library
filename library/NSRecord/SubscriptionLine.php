@@ -1,5 +1,9 @@
 <?php
-class NSRecord_SubscriptionLine extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class SubscriptionLine extends RequestAbstract
 {
    /**
     * GET /subscriptionLine

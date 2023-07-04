@@ -1,5 +1,9 @@
 <?php
-class NSRecord_TimeEntry extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class TimeEntry extends RequestAbstract
 {
    /**
     * POST /timeEntry

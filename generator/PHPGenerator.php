@@ -1,11 +1,15 @@
 <?php
+
+use NetSuiteRestAPI\Formatter;
+use NetSuiteRestAPI\NetsuiteException;
+
 include_once('base/Formatter.php');
 class PHPGenerator
 {
     const REQUEST_DIR = 'NSRecord/';
-    const REQUEST_CLASS_PREFIX = 'NSRecord_';
+    const REQUEST_CLASS_PREFIX = '';
     const DOC_TYPE_TAB_SPACES = '24';
-    const TEMPLATE_REQUEST_CLASS = "<?php\nclass %s extends RequestAbstract\n{\n%s}\n";
+    const TEMPLATE_REQUEST_CLASS = "<?php\nnamespace NetSuiteRestAPI\\NSRecord;\n\nuse NetSuiteRestAPI\RequestAbstract;\n\nclass %s extends RequestAbstract\n{\n%s}\n";
     const TEMPLATE_FUNCTION = "   /**\n    * %s\n    */\n    %s\n    {\n%s\n    }\n";
 
     /**

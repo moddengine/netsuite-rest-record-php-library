@@ -1,5 +1,9 @@
 <?php
-class NSRecord_PeriodEndJournal extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class PeriodEndJournal extends RequestAbstract
 {
    /**
     * GET /periodEndJournal

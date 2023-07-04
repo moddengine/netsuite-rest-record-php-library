@@ -1,5 +1,9 @@
 <?php
-class NSRecord_CustomerPayment extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class CustomerPayment extends RequestAbstract
 {
    /**
     * GET /customerPayment

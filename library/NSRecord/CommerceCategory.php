@@ -1,5 +1,9 @@
 <?php
-class NSRecord_CommerceCategory extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class CommerceCategory extends RequestAbstract
 {
    /**
     * GET /commerceCategory

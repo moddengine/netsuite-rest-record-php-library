@@ -1,5 +1,9 @@
 <?php
-class NSRecord_OrderReservation extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class OrderReservation extends RequestAbstract
 {
    /**
     * GET /orderReservation

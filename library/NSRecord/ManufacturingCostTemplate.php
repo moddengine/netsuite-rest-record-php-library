@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ManufacturingCostTemplate extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ManufacturingCostTemplate extends RequestAbstract
 {
    /**
     * GET /manufacturingCostTemplate

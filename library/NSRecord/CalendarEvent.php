@@ -1,5 +1,9 @@
 <?php
-class NSRecord_CalendarEvent extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class CalendarEvent extends RequestAbstract
 {
    /**
     * GET /calendarEvent

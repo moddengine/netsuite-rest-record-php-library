@@ -1,5 +1,9 @@
 <?php
-class NSRecord_PromotionCode extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class PromotionCode extends RequestAbstract
 {
    /**
     * GET /promotionCode

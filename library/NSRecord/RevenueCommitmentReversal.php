@@ -1,5 +1,9 @@
 <?php
-class NSRecord_RevenueCommitmentReversal extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class RevenueCommitmentReversal extends RequestAbstract
 {
    /**
     * GET /revenueCommitmentReversal

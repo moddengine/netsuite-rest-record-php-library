@@ -1,5 +1,9 @@
 <?php
-class NSRecord_PriceBook extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class PriceBook extends RequestAbstract
 {
    /**
     * GET /priceBook

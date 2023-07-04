@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Estimate extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Estimate extends RequestAbstract
 {
    /**
     * GET /estimate

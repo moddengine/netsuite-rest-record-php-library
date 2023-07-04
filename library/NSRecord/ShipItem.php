@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ShipItem extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ShipItem extends RequestAbstract
 {
    /**
     * GET /shipItem

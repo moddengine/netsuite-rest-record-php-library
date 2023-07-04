@@ -1,5 +1,9 @@
 <?php
-class NSRecord_SupplyChangeOrder extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class SupplyChangeOrder extends RequestAbstract
 {
    /**
     * GET /supplyChangeOrder

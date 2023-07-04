@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ReturnAuthorization extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ReturnAuthorization extends RequestAbstract
 {
    /**
     * GET /returnAuthorization

@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Message extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Message extends RequestAbstract
 {
    /**
     * GET /message

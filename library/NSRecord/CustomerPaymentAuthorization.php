@@ -1,5 +1,9 @@
 <?php
-class NSRecord_CustomerPaymentAuthorization extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class CustomerPaymentAuthorization extends RequestAbstract
 {
    /**
     * GET /customerPaymentAuthorization

@@ -1,5 +1,9 @@
 <?php
-class NSRecord_PlannedOrder extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class PlannedOrder extends RequestAbstract
 {
    /**
     * GET /plannedOrder

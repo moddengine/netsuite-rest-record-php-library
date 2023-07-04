@@ -1,5 +1,9 @@
 <?php
-class NSRecord_MarkupItem extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class MarkupItem extends RequestAbstract
 {
    /**
     * GET /markupItem

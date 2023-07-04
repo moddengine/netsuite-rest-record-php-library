@@ -1,5 +1,9 @@
 <?php
-class NSRecord_MerchandiseHierarchyNode extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class MerchandiseHierarchyNode extends RequestAbstract
 {
    /**
     * GET /merchandiseHierarchyNode

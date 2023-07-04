@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Currency extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Currency extends RequestAbstract
 {
    /**
     * GET /currency

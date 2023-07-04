@@ -1,5 +1,9 @@
 <?php
-class NSRecord_CreditMemo extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class CreditMemo extends RequestAbstract
 {
    /**
     * GET /creditMemo

@@ -1,5 +1,9 @@
 <?php
-class NSRecord_PartnerCategory extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class PartnerCategory extends RequestAbstract
 {
    /**
     * POST /partnerCategory

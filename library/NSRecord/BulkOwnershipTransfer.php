@@ -1,5 +1,9 @@
 <?php
-class NSRecord_BulkOwnershipTransfer extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class BulkOwnershipTransfer extends RequestAbstract
 {
    /**
     * POST /bulkOwnershipTransfer

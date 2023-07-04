@@ -1,5 +1,9 @@
 <?php
-class NSRecord_TaxGroup extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class TaxGroup extends RequestAbstract
 {
    /**
     * POST /taxGroup

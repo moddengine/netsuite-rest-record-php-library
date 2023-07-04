@@ -1,5 +1,9 @@
 <?php
-class NSRecord_EmailTemplate extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class EmailTemplate extends RequestAbstract
 {
    /**
     * GET /emailTemplate

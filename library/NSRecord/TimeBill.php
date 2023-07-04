@@ -1,5 +1,9 @@
 <?php
-class NSRecord_TimeBill extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class TimeBill extends RequestAbstract
 {
    /**
     * GET /timeBill

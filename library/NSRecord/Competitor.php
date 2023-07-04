@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Competitor extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Competitor extends RequestAbstract
 {
    /**
     * GET /competitor

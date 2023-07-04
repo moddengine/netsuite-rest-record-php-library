@@ -1,5 +1,9 @@
 <?php
-class NSRecord_LaborBasedProjectRevenueRule extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class LaborBasedProjectRevenueRule extends RequestAbstract
 {
    /**
     * GET /laborBasedProjectRevenueRule

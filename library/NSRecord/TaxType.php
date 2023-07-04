@@ -1,5 +1,9 @@
 <?php
-class NSRecord_TaxType extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class TaxType extends RequestAbstract
 {
    /**
     * GET /taxType

@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Usage extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Usage extends RequestAbstract
 {
    /**
     * GET /usage

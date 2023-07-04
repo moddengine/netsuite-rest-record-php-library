@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Contact extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Contact extends RequestAbstract
 {
    /**
     * GET /contact

@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ManufacturingOperationTask extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ManufacturingOperationTask extends RequestAbstract
 {
    /**
     * GET /manufacturingOperationTask

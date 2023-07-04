@@ -1,5 +1,9 @@
 <?php
-class NSRecord_AccountingContext extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class AccountingContext extends RequestAbstract
 {
    /**
     * GET /accountingContext

@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Classification extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Classification extends RequestAbstract
 {
    /**
     * GET /classification

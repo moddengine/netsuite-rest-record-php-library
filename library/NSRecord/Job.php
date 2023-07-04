@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Job extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Job extends RequestAbstract
 {
    /**
     * GET /job

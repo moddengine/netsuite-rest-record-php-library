@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ConsolidatedExchangeRate extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ConsolidatedExchangeRate extends RequestAbstract
 {
    /**
     * GET /consolidatedExchangeRate

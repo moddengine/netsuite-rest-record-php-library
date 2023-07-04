@@ -1,5 +1,9 @@
 <?php
-class NSRecord_AccountingPeriod extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class AccountingPeriod extends RequestAbstract
 {
    /**
     * GET /accountingPeriod

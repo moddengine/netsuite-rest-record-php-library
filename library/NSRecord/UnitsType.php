@@ -1,5 +1,9 @@
 <?php
-class NSRecord_UnitsType extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class UnitsType extends RequestAbstract
 {
    /**
     * GET /unitsType

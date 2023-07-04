@@ -1,5 +1,9 @@
 <?php
-class NSRecord_AssemblyItem extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class AssemblyItem extends RequestAbstract
 {
    /**
     * GET /assemblyItem

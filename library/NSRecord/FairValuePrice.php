@@ -1,5 +1,9 @@
 <?php
-class NSRecord_FairValuePrice extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class FairValuePrice extends RequestAbstract
 {
    /**
     * GET /fairValuePrice

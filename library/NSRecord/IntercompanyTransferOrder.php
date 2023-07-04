@@ -1,5 +1,9 @@
 <?php
-class NSRecord_IntercompanyTransferOrder extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class IntercompanyTransferOrder extends RequestAbstract
 {
    /**
     * GET /intercompanyTransferOrder

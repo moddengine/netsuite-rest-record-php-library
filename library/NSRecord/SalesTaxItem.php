@@ -1,5 +1,9 @@
 <?php
-class NSRecord_SalesTaxItem extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class SalesTaxItem extends RequestAbstract
 {
    /**
     * GET /salesTaxItem

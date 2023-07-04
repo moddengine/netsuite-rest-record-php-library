@@ -1,5 +1,9 @@
 <?php
-class NSRecord_AssemblyUnbuild extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class AssemblyUnbuild extends RequestAbstract
 {
    /**
     * GET /assemblyUnbuild

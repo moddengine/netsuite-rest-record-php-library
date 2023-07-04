@@ -1,5 +1,9 @@
 <?php
-class NSRecord_BudgetExchangeRate extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class BudgetExchangeRate extends RequestAbstract
 {
    /**
     * GET /budgetExchangeRate

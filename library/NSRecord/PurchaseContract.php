@@ -1,5 +1,9 @@
 <?php
-class NSRecord_PurchaseContract extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class PurchaseContract extends RequestAbstract
 {
    /**
     * GET /purchaseContract

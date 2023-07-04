@@ -1,5 +1,9 @@
 <?php
-class NSRecord_NoteType extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class NoteType extends RequestAbstract
 {
    /**
     * POST /noteType

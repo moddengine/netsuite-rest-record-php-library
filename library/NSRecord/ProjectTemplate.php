@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ProjectTemplate extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ProjectTemplate extends RequestAbstract
 {
    /**
     * GET /projectTemplate

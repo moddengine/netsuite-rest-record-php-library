@@ -1,5 +1,9 @@
 <?php
-class NSRecord_PctCompleteProjectRevenueRule extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class PctCompleteProjectRevenueRule extends RequestAbstract
 {
    /**
     * GET /pctCompleteProjectRevenueRule

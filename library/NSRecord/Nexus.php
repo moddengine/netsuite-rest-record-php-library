@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Nexus extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Nexus extends RequestAbstract
 {
    /**
     * GET /nexus

@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Cmscontent extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Cmscontent extends RequestAbstract
 {
    /**
     * GET /cmscontent

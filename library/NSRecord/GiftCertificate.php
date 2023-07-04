@@ -1,5 +1,9 @@
 <?php
-class NSRecord_GiftCertificate extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class GiftCertificate extends RequestAbstract
 {
    /**
     * GET /giftCertificate

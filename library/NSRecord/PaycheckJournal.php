@@ -1,5 +1,9 @@
 <?php
-class NSRecord_PaycheckJournal extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class PaycheckJournal extends RequestAbstract
 {
    /**
     * GET /paycheckJournal

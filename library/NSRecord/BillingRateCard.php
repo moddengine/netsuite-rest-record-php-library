@@ -1,5 +1,9 @@
 <?php
-class NSRecord_BillingRateCard extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class BillingRateCard extends RequestAbstract
 {
    /**
     * GET /billingRateCard

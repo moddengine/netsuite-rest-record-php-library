@@ -1,5 +1,9 @@
 <?php
-class NSRecord_DiscountItem extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class DiscountItem extends RequestAbstract
 {
    /**
     * GET /discountItem

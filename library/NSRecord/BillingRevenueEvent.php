@@ -1,5 +1,9 @@
 <?php
-class NSRecord_BillingRevenueEvent extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class BillingRevenueEvent extends RequestAbstract
 {
    /**
     * GET /billingRevenueEvent

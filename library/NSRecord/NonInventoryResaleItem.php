@@ -1,5 +1,9 @@
 <?php
-class NSRecord_NonInventoryResaleItem extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class NonInventoryResaleItem extends RequestAbstract
 {
    /**
     * GET /nonInventoryResaleItem

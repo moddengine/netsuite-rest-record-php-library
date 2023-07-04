@@ -1,5 +1,12 @@
 {
     "name": "bwc/netsuite-rest-record-php-library",
     "description": "Library Generator for Netsuite Rest Record Php Library",
-    "require": {}
+    "require": {
+      "ext-json": "*"
+    },
+  "autoload": {
+    "psr-4": {
+      "NetSuiteRestAPI": "library"
+    }
+  }
 }

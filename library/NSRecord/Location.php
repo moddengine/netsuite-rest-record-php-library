@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Location extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Location extends RequestAbstract
 {
    /**
     * GET /location

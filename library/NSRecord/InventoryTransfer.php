@@ -1,5 +1,9 @@
 <?php
-class NSRecord_InventoryTransfer extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class InventoryTransfer extends RequestAbstract
 {
    /**
     * GET /inventoryTransfer

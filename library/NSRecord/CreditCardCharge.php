@@ -1,5 +1,9 @@
 <?php
-class NSRecord_CreditCardCharge extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class CreditCardCharge extends RequestAbstract
 {
    /**
     * GET /creditCardCharge

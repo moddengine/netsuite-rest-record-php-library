@@ -1,5 +1,9 @@
 <?php
-class NSRecord_SalesRole extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class SalesRole extends RequestAbstract
 {
    /**
     * POST /salesRole

@@ -1,5 +1,9 @@
 <?php
-class NSRecord_SubtotalItem extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class SubtotalItem extends RequestAbstract
 {
    /**
     * GET /subtotalItem

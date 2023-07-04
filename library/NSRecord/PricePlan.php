@@ -1,5 +1,9 @@
 <?php
-class NSRecord_PricePlan extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class PricePlan extends RequestAbstract
 {
    /**
     * GET /pricePlan

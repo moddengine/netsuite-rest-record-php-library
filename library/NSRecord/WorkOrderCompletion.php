@@ -1,5 +1,9 @@
 <?php
-class NSRecord_WorkOrderCompletion extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class WorkOrderCompletion extends RequestAbstract
 {
    /**
     * GET /workOrderCompletion

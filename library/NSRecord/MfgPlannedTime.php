@@ -1,5 +1,9 @@
 <?php
-class NSRecord_MfgPlannedTime extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class MfgPlannedTime extends RequestAbstract
 {
    /**
     * GET /mfgPlannedTime

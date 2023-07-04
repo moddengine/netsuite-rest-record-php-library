@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Workplace extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Workplace extends RequestAbstract
 {
    /**
     * GET /workplace

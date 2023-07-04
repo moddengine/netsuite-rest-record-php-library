@@ -1,5 +1,9 @@
 <?php
-class NSRecord_FixedAmountProjectRevenueRule extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class FixedAmountProjectRevenueRule extends RequestAbstract
 {
    /**
     * GET /fixedAmountProjectRevenueRule

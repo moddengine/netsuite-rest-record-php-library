@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ItemSupplyPlan extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ItemSupplyPlan extends RequestAbstract
 {
    /**
     * GET /itemSupplyPlan

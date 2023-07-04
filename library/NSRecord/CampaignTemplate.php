@@ -1,5 +1,9 @@
 <?php
-class NSRecord_CampaignTemplate extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class CampaignTemplate extends RequestAbstract
 {
    /**
     * GET /campaignTemplate

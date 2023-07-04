@@ -1,5 +1,9 @@
 <?php
-class NSRecord_KitItem extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class KitItem extends RequestAbstract
 {
    /**
     * GET /kitItem

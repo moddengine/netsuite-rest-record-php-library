@@ -1,5 +1,9 @@
 <?php
-class NSRecord_VendorBill extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class VendorBill extends RequestAbstract
 {
    /**
     * GET /vendorBill

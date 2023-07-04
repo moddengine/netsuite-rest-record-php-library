@@ -1,5 +1,9 @@
 <?php
-class NSRecord_SupplyChainSnapshotSimulation extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class SupplyChainSnapshotSimulation extends RequestAbstract
 {
    /**
     * GET /supplyChainSnapshotSimulation

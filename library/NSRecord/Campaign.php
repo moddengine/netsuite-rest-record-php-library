@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Campaign extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Campaign extends RequestAbstract
 {
    /**
     * POST /campaign

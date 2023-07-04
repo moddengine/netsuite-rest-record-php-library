@@ -1,4 +1,8 @@
 <?php
+
+use NetSuiteRestAPI\Loader;
+use NetSuiteRestAPI\NetsuiteException;
+
 include_once('./RecordDefinitionsParser.php');
 include_once('./RecordSchemaParser.php');
 include_once('./PHPGenerator.php');

@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Partner extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Partner extends RequestAbstract
 {
    /**
     * GET /partner

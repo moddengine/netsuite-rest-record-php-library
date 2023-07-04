@@ -1,5 +1,9 @@
 <?php
-class NSRecord_CashRefund extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class CashRefund extends RequestAbstract
 {
    /**
     * GET /cashRefund

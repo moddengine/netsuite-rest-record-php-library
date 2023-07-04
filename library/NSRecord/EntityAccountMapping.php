@@ -1,5 +1,9 @@
 <?php
-class NSRecord_EntityAccountMapping extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class EntityAccountMapping extends RequestAbstract
 {
    /**
     * GET /entityAccountMapping

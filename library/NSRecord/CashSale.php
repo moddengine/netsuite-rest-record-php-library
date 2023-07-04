@@ -1,5 +1,9 @@
 <?php
-class NSRecord_CashSale extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class CashSale extends RequestAbstract
 {
    /**
     * GET /cashSale

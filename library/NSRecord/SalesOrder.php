@@ -1,5 +1,9 @@
 <?php
-class NSRecord_SalesOrder extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class SalesOrder extends RequestAbstract
 {
    /**
     * GET /salesOrder

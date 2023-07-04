@@ -1,5 +1,9 @@
 <?php
-class NSRecord_BinWorksheet extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class BinWorksheet extends RequestAbstract
 {
    /**
     * GET /binWorksheet

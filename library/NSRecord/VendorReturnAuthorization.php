@@ -1,5 +1,9 @@
 <?php
-class NSRecord_VendorReturnAuthorization extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class VendorReturnAuthorization extends RequestAbstract
 {
    /**
     * GET /vendorReturnAuthorization

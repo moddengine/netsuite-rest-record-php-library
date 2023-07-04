@@ -1,5 +1,9 @@
 <?php
-class NSRecord_CostCategory extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class CostCategory extends RequestAbstract
 {
    /**
     * GET /costCategory

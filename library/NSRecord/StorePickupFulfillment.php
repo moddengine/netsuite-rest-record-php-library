@@ -1,5 +1,9 @@
 <?php
-class NSRecord_StorePickupFulfillment extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class StorePickupFulfillment extends RequestAbstract
 {
    /**
     * GET /storePickupFulfillment

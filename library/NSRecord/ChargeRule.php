@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ChargeRule extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ChargeRule extends RequestAbstract
 {
    /**
     * GET /chargeRule

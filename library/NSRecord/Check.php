@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Check extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Check extends RequestAbstract
 {
    /**
     * GET /check

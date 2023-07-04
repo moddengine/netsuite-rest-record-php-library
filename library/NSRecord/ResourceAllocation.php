@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ResourceAllocation extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ResourceAllocation extends RequestAbstract
 {
    /**
     * GET /resourceAllocation

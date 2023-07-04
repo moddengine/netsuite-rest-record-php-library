@@ -1,5 +1,9 @@
 <?php
-class NSRecord_PhoneCall extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class PhoneCall extends RequestAbstract
 {
    /**
     * GET /phoneCall

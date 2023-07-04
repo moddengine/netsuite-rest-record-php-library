@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ItemRevision extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ItemRevision extends RequestAbstract
 {
    /**
     * GET /itemRevision

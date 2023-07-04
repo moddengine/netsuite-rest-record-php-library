@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ItemAccountMapping extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ItemAccountMapping extends RequestAbstract
 {
    /**
     * GET /itemAccountMapping

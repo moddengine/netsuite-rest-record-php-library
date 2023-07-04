@@ -1,5 +1,9 @@
 <?php
-class NSRecord_SubscriptionChangeOrder extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class SubscriptionChangeOrder extends RequestAbstract
 {
    /**
     * GET /subscriptionChangeOrder

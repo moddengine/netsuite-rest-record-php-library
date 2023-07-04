@@ -1,5 +1,9 @@
 <?php
-class NSRecord_StatisticalJournalEntry extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class StatisticalJournalEntry extends RequestAbstract
 {
    /**
     * GET /statisticalJournalEntry

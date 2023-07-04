@@ -1,5 +1,9 @@
 <?php
-class NSRecord_OtherName extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class OtherName extends RequestAbstract
 {
    /**
     * GET /otherName

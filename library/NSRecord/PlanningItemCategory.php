@@ -1,5 +1,9 @@
 <?php
-class NSRecord_PlanningItemCategory extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class PlanningItemCategory extends RequestAbstract
 {
    /**
     * GET /planningItemCategory

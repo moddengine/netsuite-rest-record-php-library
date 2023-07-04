@@ -1,5 +1,9 @@
 <?php
-class NSRecord_GenericResource extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class GenericResource extends RequestAbstract
 {
    /**
     * GET /genericResource

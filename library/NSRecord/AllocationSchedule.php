@@ -1,5 +1,9 @@
 <?php
-class NSRecord_AllocationSchedule extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class AllocationSchedule extends RequestAbstract
 {
    /**
     * POST /allocationSchedule

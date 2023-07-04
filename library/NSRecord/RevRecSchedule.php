@@ -1,5 +1,9 @@
 <?php
-class NSRecord_RevRecSchedule extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class RevRecSchedule extends RequestAbstract
 {
    /**
     * GET /revRecSchedule

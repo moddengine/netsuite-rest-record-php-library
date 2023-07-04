@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Bin extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Bin extends RequestAbstract
 {
    /**
     * GET /bin

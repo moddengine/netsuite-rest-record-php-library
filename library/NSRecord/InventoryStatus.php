@@ -1,5 +1,9 @@
 <?php
-class NSRecord_InventoryStatus extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class InventoryStatus extends RequestAbstract
 {
    /**
     * GET /inventoryStatus

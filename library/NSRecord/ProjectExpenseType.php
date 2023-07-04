@@ -1,5 +1,9 @@
 <?php
-class NSRecord_ProjectExpenseType extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class ProjectExpenseType extends RequestAbstract
 {
    /**
     * GET /projectExpenseType

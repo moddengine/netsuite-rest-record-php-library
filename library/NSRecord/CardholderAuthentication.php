@@ -1,5 +1,9 @@
 <?php
-class NSRecord_CardholderAuthentication extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class CardholderAuthentication extends RequestAbstract
 {
    /**
     * GET /cardholderAuthentication

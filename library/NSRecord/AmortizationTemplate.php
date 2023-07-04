@@ -1,5 +1,9 @@
 <?php
-class NSRecord_AmortizationTemplate extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class AmortizationTemplate extends RequestAbstract
 {
    /**
     * GET /amortizationTemplate

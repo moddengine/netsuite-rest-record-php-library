@@ -1,5 +1,9 @@
 <?php
-class NSRecord_RevRecTemplate extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class RevRecTemplate extends RequestAbstract
 {
    /**
     * GET /revRecTemplate

@@ -1,5 +1,9 @@
 <?php
-class NSRecord_Opportunity extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class Opportunity extends RequestAbstract
 {
    /**
     * GET /opportunity

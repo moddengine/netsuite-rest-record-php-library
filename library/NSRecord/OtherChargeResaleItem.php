@@ -1,5 +1,9 @@
 <?php
-class NSRecord_OtherChargeResaleItem extends RequestAbstract
+namespace NetSuiteRestAPI\NSRecord;
+
+use NetSuiteRestAPI\RequestAbstract;
+
+class OtherChargeResaleItem extends RequestAbstract
 {
    /**
     * GET /otherChargeResaleItem
