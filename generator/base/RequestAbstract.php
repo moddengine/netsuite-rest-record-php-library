@@ -12,10 +12,8 @@ class RequestAbstract
 	const ERROR_CODE_USER_ERROR_OR_INVALID_INTERNAL_ID = 'USER_ERROR',
 		ERROR_CODE_NONEXISTENT_EXTERNAL_ID = 'NONEXISTENT_EXTERNAL_ID';
 
-	/**
-	 * @var array
-	 */
-	private static $_config = [];
+
+	private Config $config;
 
 	/**
 	 * @var string
@@ -25,13 +23,14 @@ class RequestAbstract
 	/**
 	 * RequestAbstract constructor
 	 */
-	public function __construct()
+	public function __construct(?Config $config = null)
 	{
-		$loader = new Loader();
-		if (self::$_config === []) {
-			self::$_config = $loader->getConfig();
+		if($config == null) {
+			$loader = new Loader();
+			$config = $loader->getConfig();
 		}
-		$this->_baseurl = sprintf(static::BASE_URL_PATTERN, self::$_config['account_id']);
+		$this->config = $config;
+		$this->_baseurl = sprintf(static::BASE_URL_PATTERN, $this->config->accountId);
 	}
 
 	/**
@@ -53,11 +52,11 @@ class RequestAbstract
 				$signatureParams = array_merge(
 					$params,
 					[
-						'oauth_consumer_key' => rawurlencode(self::$_config['consumer_key']),
+						'oauth_consumer_key' => rawurlencode($this->config->consumerKey),
 						'oauth_nonce' => rawurlencode($generatedParams['nonce']),
 						'oauth_signature_method' => rawurlencode(self::SIGNATURE_METHOD),
 						'oauth_timestamp' => rawurlencode($generatedParams['time']),
-						'oauth_token' => rawurlencode(self::$_config['token_id']),
+						'oauth_token' => rawurlencode($this->config->tokenId),
 						'oauth_version' => self::RECORD_API_VERSION
 					]
 				);
@@ -78,8 +77,8 @@ class RequestAbstract
 
 				$key = sprintf(
 					'%s&%s',
-					rawurlencode(self::$_config['consumer_secret']),
-					rawurlencode(self::$_config['token_secret'])
+					rawurlencode($this->config->consumerSecret),
+					rawurlencode($this->config->tokenSecret)
 				);
 
 				$signature = rawurlencode(
@@ -94,9 +93,9 @@ class RequestAbstract
 						. 'oauth_signature_method="%s",oauth_timestamp="%s",oauth_nonce="%s",'
 						. 'oauth_version="%s",oauth_signature="%s"',
 						PHP_EOL,
-						self::$_config['realm'],
-						self::$_config['consumer_key'],
-						self::$_config['token_id'],
+						$this->config->realm,
+						$this->config->consumerKey,
+						$this->config->tokenId,
 						self::SIGNATURE_METHOD,
 						$generatedParams['time'],
 						$generatedParams['nonce'],
@@ -222,14 +221,6 @@ class RequestAbstract
 				str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 20
 			),
 		];
-	}
-
-	/**
-	 * @param stdClass $config
-	 */
-	public function setConfig($config)
-	{
-		self::$_config = $config;
 	}
 
 	/**
